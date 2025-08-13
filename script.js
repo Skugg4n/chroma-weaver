@@ -23,6 +23,7 @@ dropzone.addEventListener('drop', e => {
 resetBtn.addEventListener('click', () => {
   originalSvgText = ''; foundHexes.clear(); tableBody.innerHTML = '';
   convertBtn.disabled = true; resetBtn.disabled = true; fileInfo.textContent = '';
+  fileInput.value = '';
   msg.textContent = '';
 });
 

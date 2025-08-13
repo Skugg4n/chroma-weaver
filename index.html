@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chroma Weaver – SVG Color Converter</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -13,10 +13,10 @@
   </header>
 
   <section class="uploader">
-    <div id="dropzone" aria-label="Drop SVG here">
-      <strong>Drag & drop</strong> an SVG here, or
+    <div id="dropzone">
+      <strong>Drag &amp; drop</strong> an SVG here, or
       <label class="file-btn">
-        <input id="fileInput" type="file" accept=".svg" />
+        <input id="fileInput" type="file" accept=".svg">
         choose file
       </label>
     </div>
@@ -34,8 +34,8 @@
     </table>
 
     <div class="actions">
-      <button id="convertBtn" disabled>Convert & Download</button>
-      <button id="resetBtn" class="secondary" disabled>Reset</button>
+      <button id="convertBtn" type="button" disabled>Convert &amp; Download</button>
+      <button id="resetBtn" type="button" class="secondary" disabled>Reset</button>
     </div>
     <div id="msg" role="status" class="muted"></div>
   </section>
