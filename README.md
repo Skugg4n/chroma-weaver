@@ -15,4 +15,12 @@ Rules:
 3. Click **Convert & Download** to get an SVG with CMYK values added as `cmyk` attributes.
 4. Use **Reset** to start over.
 
-A sample file is provided at [sample.svg](sample.svg).
+Example output:
+
+```
+<rect width="100" height="100" fill="#ff0000" cmyk="0,100,100,0"/>
+```
+
+Sample files:
+- [samples/red-square.svg](samples/red-square.svg)
+- [samples/two-fills.svg](samples/two-fills.svg)
