@@ -1,18 +1,7 @@
-# chroma-weaver
-
 Project mission: Maintain and extend a static web app that converts flat fill colors in SVGs from RGB to CMYK using a user-defined mapping. Stack: vanilla HTML/CSS/JS, no build step.
-
 Rules:
 – Keep code self-contained in index.html, style.css, script.js.
 – Only support flattened fills (no gradients/patterns/CSS) for now.
 – Add tests by shipping minimal sample SVGs in the repo.
 – Create small, focused PRs with clear commit messages and acceptance notes.
-
-## Usage
-
-1. Drag & drop an SVG onto the drop zone or choose a file.
-2. Each unique flat `fill` hex will appear in the table. Enter CMYK percentages for each.
-3. Click **Convert & Download** to get an SVG with CMYK values added as `cmyk` attributes.
-4. Use **Reset** to start over.
-
-A sample file is provided at [sample.svg](sample.svg).
+First task: Add drag-and-drop upload, basic error handling, and a sample SVG + README usage notes.
